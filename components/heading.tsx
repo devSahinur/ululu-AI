@@ -5,8 +5,8 @@ interface HeadingProps {
   title: string;
   description: string;
   icon: LucideIcon;
-  iconColor: string;
-  bgColor: string;
+  iconColor?: string;
+  bgColor?: string;
 }
 
 const Heading = ({
